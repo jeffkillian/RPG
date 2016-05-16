@@ -1,0 +1,39 @@
+#grid {
+   width:400px;
+   height:400px;
+   background-color:#F4F4FF;
+   border:1px solid gray;
+   position:relative;
+}
+
+.character{
+	width:20px;
+	height:20px;
+	background-color:orange;
+}
+
+.item{
+    width:8px;
+    height:8px;
+    margin:6px;
+}
+
+.health{
+    background-color:red;;
+}
+
+.potion{
+    background-color:purple;;
+}
+
+.gameDiv{
+    position:absolute;
+}
+
+.giant{
+	background-color:#3C5F6F;
+}
+
+.player{
+	background-color:green;
+}

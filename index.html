@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+         <link rel="stylesheet" href="style.css" />
+    </head>
+<body>
+
+<div id='grid'></div>
+You are green. Orange is an enemy. You can move with the arrow keys, and attack with the space bar. <br>You can also run the following commands:
+<ul>
+<li>Potion (purple) - will temporarily either confuse you or double your strength</li>
+<li>Health (red) - restores some health</li>
+<li><a href='javascript:new Orc("Baby James");'>new Orc("name")</a> - generates a new Orc()</li>
+<li><a href='javascript:new Giant("Peach");'>new Giant("name")</a> - generate a new Giant</li>
+<li><a href='javascript:new Cat();'>new Cat()</a> - generate a new cat, which follows you around healing with love</li>
+<li><a href='javascript:new Player("Jeff");'>new Player("name")</a> - generate a new player if you die</li>
+<li>Player/Orc.startABeef(target) - start a verbal quarrel between two characters</li>
+
+</ul>
+</body>
+
+<script type="text/javascript" src='gameBuild.js'></script>
+<script type="text/javascript" src='keys.js'></script>
+<script type="text/javascript" src='items.js'></script>
+<script type="text/javascript" src='characters.js'></script>
+<script type="text/javascript" src='init.js'></script>
+
+</html>
