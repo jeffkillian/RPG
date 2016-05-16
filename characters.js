@@ -257,6 +257,7 @@ function Cat(){
     this.movePercentage=.10;//Percent of time the cat will move on a given turn
     this.timeUntilNextLick=this.lickResetTime=10;
     this.range=1;
+    this.div.addClass('cat');
     
 }
 
